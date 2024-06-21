@@ -1,0 +1,14 @@
+const char *firstStart = "/firststart.txt";
+const char *fullNamePath = "/fullnamepath.txt";
+const char *adminUserPath = "/adminuserpath.txt";
+const char *adminPassPath = "/adminuserpass.txt";
+const char *ssidPath = "/ssidpath.txt";
+const char *passPath = "/passPath.txt";
+const char *intervalPath = "/interval.txt";
+const char *dataPath = "/datapath.txt";
+const char *sbpPath = "/sbppath.txt";
+const char *dbpPath = "/dbppath.txt";
+const char *sos1Path = "/sos1path.txt";
+const char *sos2Path = "/sos2path.txt";
+const char *apnPath = "/apnPath.txt";
+const char *indexPath = "/indexpath.txt";

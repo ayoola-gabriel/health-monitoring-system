@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMS App</title>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <script src="app.js" defer></script>
+</head>
+
+<body class="dflex jcol center even">
+    <header class="dflex sb wrap">
+        <h1>Welcome <span id="username_info">Back</span>!</h1>
+
+        <select class="measure" id="int">
+            <option>Set Measurement Interval</option>
+            <option>1</option>
+            <option>10</option>
+            <option>20</option>
+            <option>30</option>
+            <option>40</option>
+            <option>50</option>
+            <option>60</option>
+        </select>
+    </header>
+    <section class="userUI">
+        <section class="main-container sel_UI">
+            <div class="dflex jcol UI mb-20 user-info">
+                <h2 class="settings_select UI">User Information</h2>
+                <div class="mt-10">
+                    <label for="fullname">Full Name:</label>
+                    <input id="fullname" type="text" placeholder="Enter Name" required>
+                    <label for="enterUser">Login Username:</label>
+                    <input id="enterUser" type="text" placeholder="Enter Admin Username">
+                    <label for="enterPass">Login Password:</label>
+                    <input id="enterPass" type="password" placeholder="Enter Admin Password">
+                </div>
+            </div>
+
+            <div class="dflex jcol UI mb-20 sim">
+                <h2 class="settings_select UI">SIM and SOS Number Setting</h2>
+
+                <div class="dflex sb jcol mt-10">
+                    <label for="carrierSIM">Select Carrier Network</label>
+                    <select id="carrierSIM">
+                        <option>MTN</option>
+                        <option>GLO</option>
+                        <option>AIRTEL</option>
+                        <option>9MOBILE</option>
+                    </select>
+
+                    <label for="sosNumber2">Enter SOS Number</label>
+                    <input type="tel" id="sosNumber1" placeholder="SOS Number 1" required>
+                    <label for="sosNumber2">Enter SOS Number</label>
+                    <input type="tel" id="sosNumber2" placeholder="SOS Number 2">
+
+                </div>
+            </div>
+
+            <div class="dflex jcol UI mb-20 network">
+                <h2 class="settings_select UI">Change Network Connection Setting</h2>
+                <div class="mt-10">
+                    <label for="ssid">SSID:</label>
+                    <input id="ssid" type="text" placeholder="Enter WiFi SSID">
+                    <label for="pass">Password:</label>
+                    <input id="pass" type="password" placeholder="Enter WiFi Password">
+                </div>
+            </div>
+
+            <div class="dflex jcol UI mb-20">
+                <h2 class="settings_select UI">Clinical Blood Pressure Values</h2>
+                <div class="mt-10">
+                    <label for="sys">Systolic:</label>
+                    <input id="sys" type="text" placeholder="Enter Systolic Value">
+                    <label for="dia">Diastolic:</label>
+                    <input id="dia" type="text" placeholder="Enter Diastolic Value">
+                </div>
+            </div>
+
+        </section>
+        <div class="dflex mt-10 buttons">
+            <button class="btn" id="admin_settings">Save</button>
+            <button class="btn" id="logout">Complete</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed by <a href="https://g.page/r/CfQvFv81BsfaEAI/">Newness Electronics</a><span>
+                &copy</span>2023</p>
+    </footer>
+
+</body>
+
+</html>
