@@ -14,7 +14,7 @@ bool taskCompleted = false;
 #define USER_EMAIL "YOUR-EMAIL"           // Firebase: Define the user Email
 #define USER_PASSWORD "YOUR-LOGIN-PASSWORD"                         // Firebase: Define password
 #define STORAGE_BUCKET_ID "YOUR-STORAGE-BUCKET-ID"     // Firebase: Define the Firebase storage bucket ID e.g bucket-name.appspot.com
-#define FIRMWARE_PATH "YOUR-FIRMAWARE-PATH"            // Firebase: Define the firmware path on Firebase
+#define FIRMWARE_PATH "YOUR-FIRMWARE-PATH"            // Firebase: Define the firmware path on Firebase
 
 String swversion = __FILE__;
 
